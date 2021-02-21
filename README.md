@@ -5,7 +5,7 @@
 
     For start server you need download Docker 
     Then start start-script.sh from cloned task folder by command:
-    *bash start-script.sh*
+    # bash start-script.sh
 
 
 ## Open
