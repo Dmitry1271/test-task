@@ -1,2 +1,4 @@
 *.idea
 taskEnv
+__pycache__
+db

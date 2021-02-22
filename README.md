@@ -14,17 +14,19 @@
 
 ## API methods
     * GET
+        * /api/ping (server working status)
         * /api/status (account info)
             * params: uuid
     * POST
-        * /api/ping (server working status)
         * /api/add (top up balance)
         * /api/subtract (subtract balance)
 
     
-### For POST methods /api/add and /api/add need json in format
-    {
-        "uuid": "account_uuid",
-        "sum": value for adding or subtracting account balance
+### For POST methods /api/add and /api/subtract need json in format:
+    {   
+        "addition": {
+            "uuid": "account_uuid",
+            "sum": value for adding or subtracting account balance
+        }
     }
     
